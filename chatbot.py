@@ -61,6 +61,9 @@ def add(update: Update, context: CallbackContext) -> None:
     except (IndexError, ValueError):
         update.message.reply_text('Usage: /add <keyword>')
 
+def hello(update: Update, context: CallbackContext) -> None:
+    """Send a message when the command /hello is issued."""
+    update.message.reply_text('Good day, Kevin!')
 
 
 if __name__ == '__main__':
