@@ -29,7 +29,7 @@ def main():
     # on different commands - answer in Telegram
     dispatcher.add_handler(CommandHandler("add", add))
     dispatcher.add_handler(CommandHandler("help", help_command))
-    dispatcher.add_handler(CommandHandler("hello", help_command))
+    dispatcher.add_handler(CommandHandler("hello", hello))
 
 
     # To start the bot:
