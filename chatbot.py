@@ -63,7 +63,7 @@ def add(update: Update, context: CallbackContext) -> None:
         update.message.reply_text('Usage: /add <keyword>')
 
 def hello(update: Update, context: CallbackContext) -> None:
-    """Send a message when the command /hello is issued."""
+    """Send a message when the command /hello Kevin is issued."""
     update.message.reply_text('Good day, Kevin!')
 
 
